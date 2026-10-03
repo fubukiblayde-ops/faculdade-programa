@@ -1,0 +1,105 @@
+```css
+/* Configuração geral do site */
+body {
+    background-color: #282c70;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    /* Centraliza o conteúdo */
+    text-align: center;
+
+    /* Remove a margem padrão */
+    margin: 0;
+    padding: 30px;
+}
+
+/* Borda ao redor do conteúdo */
+body {
+    border: 5px solid #00bfff;
+    border-radius: 15px;
+    margin: 20px;
+    min-height: calc(100vh - 60px);
+    box-sizing: border-box;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* Parágrafo de apresentação */
+p {
+    font-size: 18px;
+}
+
+/* Imagem da SEGA */
+img {
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    margin: 25px auto;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+/* Subtítulo */
+h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Lista de jogos */
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Links */
+a {
+    color: #87cefa;
+}
+
+a:hover {
+    color: #ffff00;
+}
+```
+```css
+html {
+    background-color: #282c70;
+    min-height: 100%;
+}
+
+body {
+    background-color: #282c70;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    min-height: calc(100vh - 100px);
+    border: 3px solid #00bfff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Centraliza a imagem */
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 25px auto;
+}
+
+/* Deixa os títulos brancos */
+h1, h2 {
+    color: white;
+}
+
+/* Melhora a aparência dos links */
+a {
+    color: #87cefa;
+}
+```
